@@ -41,7 +41,7 @@ public class ResultActivity extends AppCompatActivity {
         ImageView imgResult = findViewById(R.id.img_result);
 
         textResult.setText(imgNames[maxIndex]);
-        imgResult.setImageResource(imgResult[maxIndex]);
+        imgResult.setImageResource(imageFileNames[maxIndex]);
 
         for(int i=0; i<imgNames.length; i++) {
             textVs[i] = findViewById(textIds[i]);
