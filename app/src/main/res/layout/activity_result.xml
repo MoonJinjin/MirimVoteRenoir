@@ -9,6 +9,14 @@
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
         <TextView
             android:id="@+id/text_pic1"
             android:layout_width="wrap_content"
@@ -21,7 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            style="?android:attr/ratingBarStyleIndicator"/>
+            style="?android:attr/ratingBarStyleSmall"/>
     </TableRow>
     <TableRow
         android:layout_width="match_parent"
@@ -38,7 +46,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            style="?android:attr/ratingBarStyleIndicator"/>
+            style="?android:attr/ratingBarStyleSmall"/>
     </TableRow>
     <TableRow
         android:layout_width="match_parent"
@@ -55,7 +63,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            style="?android:attr/ratingBarStyleIndicator"/>
+            style="?android:attr/ratingBarStyleSmall"/>
     </TableRow>
     <TableRow
         android:layout_width="match_parent"
@@ -72,7 +80,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            style="?android:attr/ratingBarStyleIndicator"/>
+            style="?android:attr/ratingBarStyleSmall"/>
     </TableRow>
     <TableRow
         android:layout_width="match_parent"
@@ -89,7 +97,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            style="?android:attr/ratingBarStyleIndicator"/>
+            style="?android:attr/ratingBarStyleSmall"/>
     </TableRow>
     <TableRow
         android:layout_width="match_parent"
@@ -106,7 +114,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            style="?android:attr/ratingBarStyleIndicator"/>
+            style="?android:attr/ratingBarStyleSmall"/>
     </TableRow>
     <TableRow
         android:layout_width="match_parent"
@@ -123,7 +131,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            style="?android:attr/ratingBarStyleIndicator"/>
+            style="?android:attr/ratingBarStyleSmall"/>
     </TableRow>
     <TableRow
         android:layout_width="match_parent"
@@ -140,7 +148,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            style="?android:attr/ratingBarStyleIndicator"/>
+            style="?android:attr/ratingBarStyleSmall"/>
     </TableRow>
     <TableRow
         android:layout_width="match_parent"
@@ -157,7 +165,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            style="?android:attr/ratingBarStyleIndicator"/>
+            style="?android:attr/ratingBarStyleSmall"/>
     </TableRow>
     <TableRow
         android:layout_width="match_parent"
