@@ -8,7 +8,8 @@
     tools:context=".ResultActivity">
     <TableRow
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:gravity="center">
         <TextView
             android:id="@+id/text_result"
             android:layout_width="wrap_content"
@@ -16,9 +17,11 @@
     </TableRow>
     <TableRow
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:gravity="center">
         <ImageView
             android:id="@+id/img_result"
+            android:src="@drawable/vote1"
             android:layout_width="300dp"
             android:layout_height="300dp"
             android:layout_gravity="center_horizontal"/>
