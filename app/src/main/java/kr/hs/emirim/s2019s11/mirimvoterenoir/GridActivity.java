@@ -20,19 +20,18 @@ public class GridActivity extends AppCompatActivity {
         setContentView(R.layout.activity_grid);
 
         gridv = findViewById(R.id.gridv);
-        GridAdapter adapter = new GridAdapter(this);
+        adapter = new GridAdapter(this);
         gridv.setAdapter(adapter);
 
         Button btnGo = findViewById(R.id.btn_go);
-        btnGo.setOnClickListener(btnListener);
+        btnGo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), ResultActivity.class);
+                intent.putExtra("voteCount", adapter.voteCount);
+                intent.putExtra("imgNames", adapter.imgNames);
+                startActivity(intent);
+            }
+        });
     }
-    View.OnClickListener btnListener = new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            Intent intent = new Intent(getApplicationContext(), ResultActivity.class);
-            intent.putExtra("voteCount", adapter.voteCount);
-            intent.putExtra("imgNames", adapter.imgNames);
-            startActivity(intent);
-        }
-    };
 }
